@@ -1,4 +1,4 @@
-  start:LXI H, C000H
+  start:LXI H, 2200H
         MVI C, 0AH
         MVI D, 00H
    here:MOV A, M
