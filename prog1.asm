@@ -1,4 +1,4 @@
-		LXI H, 0000H
+	LXI H, D000H
         MVI C, 0AH
         MVI D, 00H
         MVI B, 08H
@@ -12,5 +12,5 @@
         JNZ loop1
         
         mov A, D
-        sta 0010h
+        STA C000H
         hlt
