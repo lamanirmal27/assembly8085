@@ -10,4 +10,4 @@ loop1:	MOV A, M
 loop:	INX H
 	DCR C
         JNZ loop1
-        HLT
+        hlt
